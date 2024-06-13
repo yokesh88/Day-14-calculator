@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class = "header-container">
+        <h1 id="title">Calculator</h1>
+    </div>
+        <p id ="description">To create a Calculator using DOM </p>
+
+    <div class="container">
+    <div class ="calculator">
+        <input type = "text" placeholder ="0" id="result">
+        <button onclick = "clr()" id = "clear">CL</button>
+        <button onclick = "del()" class = "delete">Del</button>
+        <button onclick = "display('%')" class = "cal">%</button>
+        <button onclick = "display('/')" class = "cal">/</button>
+        <button onclick = "display('*')" class = " cal">*</button>
+        <button onclick = "display('7')" class = " cal" id="7">7</button>
+        <button onclick = "display('8')" class = " cal" id="8">8</button>
+        <button onclick = "display('9')" class = "cal" id="9">9</button>
+        <button onclick = "display('-')" class = "cal" id="subtract">-</button>
+        <button onclick = "display('4')" class = " cal" id="4">4</button>
+        <button onclick = "display('5')" class = " cal" id="5">5</button>
+        <button onclick = "display('6')" class = "cal" id="6">6</button>
+        <button onclick = "display('+')" class = " cal" id="add">+</button>
+        <button onclick = "display('1')" class = " cal" id="1">1</button>
+        <button onclick = "display('2')" class = " cal" id="2">2</button>
+        <button onclick = "display('3')" class = "cal" id="3">3</button>
+        <button onclick = "display('.')" class = " cal"id=".">.</button>
+        <button onclick = "display('0')" class = "cal" id="0">0</button>
+        <button onclick = "calculate()" id="equal">=</button>
+      </div>
+
+  </div>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
